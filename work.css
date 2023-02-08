@@ -1,0 +1,298 @@
+
+
+#mywork{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.work{
+display: grid;
+grid-template-columns: repeat(2,1fr);
+padding: 1em;
+}
+
+.work-video {
+    display: flex;
+   justify-content: center;
+    align-items: center;
+   
+}
+
+.work-video .mockup
+{
+    max-width: 500px;
+}
+
+.work-sample{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+   
+    gap: 1em;
+}
+
+
+.work-sample .work-img img{
+  width: 100%;
+ height: 100%;
+}
+
+.work-sample .desktop {
+    height: 100%;
+width: 100%;
+    grid-row:4;
+grid-column: 1 / -1;
+justify-content: center;
+display: grid;
+
+}
+.work-sample .desktop img {
+    max-width: 500px;
+
+}
+
+
+
+
+/* ghekfix */
+.ghekfix{
+    width: 100%;
+ 
+   height: 100%;
+   overflow-y: hidden;
+}
+
+
+.ghekfix img{
+    width: 100%;
+}
+/* .nav{
+    width: 100%;
+    
+
+}
+.nav-container{
+    padding:1em  2em;
+    display: flex;
+width: 100%;
+justify-content: space-between;
+background-color:#1B1B1B ;
+align-items: center;
+
+}
+
+
+.logo{
+
+    width: 50%;
+}
+.navigation{
+    width: 30%;
+}
+
+
+.navigation ul{
+    
+    list-style: none;
+    display: flex;
+justify-content: space-between;
+padding: 0;
+}
+.navigation .gnavlink{
+   cursor: pointer;
+    color:#FFECD4 ;
+}
+
+.homefix{
+
+    background:
+    linear-gradient(to right, #E98A42 8px, transparent 8px) 0 0,
+    linear-gradient(to right, #E98A42 8px, transparent 8px) 0 100%,
+    linear-gradient(to left, #E98A42 8px, transparent 8px) 100% 0,
+    linear-gradient(to left, #E98A42 8px, transparent 8px) 100% 100%,
+    linear-gradient(to bottom, #E98A42 8px, transparent 8px) 0 0,
+    linear-gradient(to bottom, #E98A42 8px, transparent 8px) 100% 0,
+    linear-gradient(to top, #E98A42 8px, transparent 8px) 0 100%,
+    linear-gradient(to top, #E98A42 8px, transparent 8px) 100% 100%;
+    
+    background-repeat: no-repeat;
+    background-size: 30px 30px;
+background-color: #1B1B1B;
+
+
+
+}
+.homefix-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+padding: 0 3em;
+
+
+}
+.homefix-details{
+    color: #FFECD4;
+ 
+}
+.homefix-container .homefix-details p:first-child{
+font-size: 4rem;
+line-height:4rem;
+font-weight: bolder;
+color: #FFECD4;
+}
+.homefix-container .homefix-details p{
+    margin-top: 1em;
+
+}
+
+.homefix-details button{
+    background-color: #FFECD4;
+    padding: 1em 2em;
+    margin-top: 1em;
+    border-radius: 4px;
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    font-size: 16px;
+   letter-spacing: 1px;
+   font-weight: lighter;
+   color: #1B1B1B;
+ 
+}
+
+
+
+.brand-container{
+    display: flex;
+justify-content: center;
+align-items: center;
+gap: .5em;
+
+} */
+
+/* ghekfix services */
+
+main{
+    
+    padding: 1em;
+    background-color: #1B1B1B;
+    margin-left: auto;
+}
+
+.ghekfix-title{
+    color:      rgb(53, 52, 52);
+    width: 100%;
+    font-size: 2rem;
+}
+
+.ghekfix-services{
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.services-header h1{
+font-size: 5rem;
+}
+.services-header h5{
+font-size: 2rem;
+}
+
+.g-services-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3em;
+}
+
+.g-services-container .g{
+display: flex;
+align-items: center;
+gap: 1em;
+}
+
+/* music */
+.music {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.music-images{
+    display: flex;
+    justify-content: center;
+justify-content: space-between;
+gap: 1em;
+}
+.music-images img{
+    width:25%;
+}
+
+
+
+@media only screen and (max-width: 900px) {
+
+    .work-sample{
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+     }
+     .work-sample img{
+        width: 100%;
+     }
+
+}
+@media only screen and (max-width: 768px) {
+    .work-sample{
+        width: 100%;
+       grid-template-columns: 1fr 1fr  ;
+
+     }
+ 
+
+
+
+    .work{
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 100%;
+        position: relative;
+        }
+
+.work-video {
+display: grid;
+    width: 100%;
+    position: relative;
+    place-items: center;
+}
+.work-video video{
+    width: 300px;
+
+}
+ .work-details{
+   
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+ 
+    place-items: center;
+ }
+
+ .work-details h1{
+    font-size: 18px;
+ }
+
+
+}
+
+@media only screen and (max-width: 900px) {
+
+.music-images{
+display: grid;
+grid-template-columns: 1fr 1fr;
+}
+.music-images img{
+
+    width: 100%;
+}
+
+
+}
