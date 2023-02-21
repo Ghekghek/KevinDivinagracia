@@ -10,7 +10,7 @@
 display: flex;
 padding: 1em;
 
-gap: 2em;
+gap: 1em;
 }
 .about-container h1{
     color: #E1E4CF;
@@ -32,7 +32,7 @@ gap: 2em;
  display: flex;
 
  flex-direction: column;
- gap: 2em;
+ gap: 1em;
 
 width: 100%;
 
@@ -43,7 +43,9 @@ margin: auto;
 
 .skill-container{
  
-  
+    box-shadow: 10px 10px 5px -11px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px -11px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px -11px rgba(0,0,0,0.75);
     position: relative;
     /* background: #353434; */
     border: 1px solid #353434;
@@ -77,7 +79,9 @@ color: #353434;
 
 
 .about-content {
-   
+    box-shadow: 10px 10px 5px -11px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px -11px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px -11px rgba(0,0,0,0.75);
     /* background: #353434; */
 padding: 2em 1em;
  border: 1px solid #353434;
@@ -98,6 +102,7 @@ padding: 2em 1em;
     margin-bottom: 1.25em;
 color: #353434;
 text-align: justify;
+
 }
 
 .about-content .about-image{
@@ -177,6 +182,9 @@ color: #4BA3C3;
 }
 
 .social-icon-container {
+    box-shadow: 10px 10px 5px -11px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 5px -11px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px -11px rgba(0,0,0,0.75);
  position: relative;
  border: 1px solid #353434;
  border-radius: 8px;
@@ -187,15 +195,7 @@ color: #4BA3C3;
 .social-title{
 margin-bottom: 1em;
 }
-.icon{
-    display: flex;
-    gap: .5em;
-    align-items: center;
-    color: #353434;
-width: 100%;
-cursor: pointer;
 
-}
 
 .skill-title{
     margin-bottom: 1em;

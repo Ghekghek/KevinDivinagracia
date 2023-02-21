@@ -55,7 +55,7 @@ width: 60%;
 }
 .timeline-container .vertical-scrollable-timeline li {
   position: relative;
-  padding: 35px 0px 125px 158px;
+  padding: 35px 0px 125px 130px;
 
 }
 .timeline-container .vertical-scrollable-timeline li:last-child {
@@ -84,7 +84,7 @@ width: 60%;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #c5c3cb;
+  background-color:#4b4a4a;
   border-radius: 50%;
   z-index: 1;
   transition: 0.4s all;
@@ -93,9 +93,9 @@ width: 60%;
   content: "";
   width: 80px;
   height: 80px;
-  border: 4px solid #fff;
+  border: 4px solid rgb(235, 232, 232);
   position: absolute;
-  background-color: #c5c3cb;
+  background-color: #4b4a4a;
   border-radius: 50%;
   z-index: -1;
   transition: 0.4s all;
@@ -109,7 +109,7 @@ width: 60%;
   position: absolute;
   height: 0;
   width: 8px;
-  background-color: #e803fc;
+  background-color: #EFA00B;
   left: 48px;
   top: 34px;
   z-index: 0;
@@ -120,18 +120,20 @@ width: 60%;
   position: absolute;
   height: 100%;
   width: 8px;
-  background-color: #c5c3cb;
+  background-color: #4b4a4a;
   left: 48px;
   z-index: 0;
 }
 .timeline-container .vertical-scrollable-timeline li:last-child::before {
+  
   content: unset;
 }
 .timeline-container .vertical-scrollable-timeline li.active .icon-holder {
-  background-color: #e803fc;
+  scale: 1.2;
+  background-color: #EFA00B;
 }
 .timeline-container .vertical-scrollable-timeline li.active .icon-holder::before {
-  background-color: #e803fc;
+  background-color: #EFA00B;
 }
 .timeline-container .vertical-scrollable-timeline li.active::after {
   height: 100%;
