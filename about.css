@@ -8,9 +8,10 @@
 .about-container{
   
 display: flex;
-padding: 1em;
+
 
 gap: 1em;
+
 }
 .about-container h1{
     color: #E1E4CF;
@@ -53,7 +54,11 @@ margin: auto;
   padding: 1rem;
 
 }
-
+.educ {
+    display: flex;
+    align-items: center;
+    gap: .75em;
+}
 .skill-title h1{
     color: #353434;
 }
