@@ -46,7 +46,7 @@ window.onscroll = () => {
     const sectionTop = section.offsetTop;
 
 
-    if (pageYOffset >= sectionTop - 80) {
+    if (pageYOffset >= sectionTop - 120) {
       current = section.getAttribute("id"); }
 
   
