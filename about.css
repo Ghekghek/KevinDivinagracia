@@ -9,7 +9,7 @@
   
 display: flex;
 
-
+align-items: center;
 gap: 1em;
 
 }
@@ -53,11 +53,34 @@ margin: auto;
   border-radius: 8px;
   padding: 1rem;
 
+
+}
+.education {
+    display: flex;
+    flex-direction: column;
+    
 }
 .educ {
     display: flex;
     align-items: center;
     gap: .75em;
+   margin-bottom: 4px;
+ 
+}
+.education  b{
+    margin-bottom: 1em;
+    position: relative;
+}
+.education  b::after{
+    position: absolute;
+
+    content: "";
+    width: 1px ;
+    height: 1px;
+
+width: 100%;
+background-color:#4BA3C3;
+opacity: 60%;
 }
 .skill-title h1{
     color: #353434;
@@ -95,7 +118,7 @@ padding: 2em 1em;
     position: relative;
     border-radius: 8px;
     overflow: hidden;
-  
+   height: 100%;
     
 }
 

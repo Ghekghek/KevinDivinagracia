@@ -1,13 +1,45 @@
+#connect{
+    position: relative!important;
+height: 80vh;
+    padding-top: 0;
+}
 
+#connect img {
+    width: 80px;
+    transition: transform 1s;
+}
+#connect img:hover {
+    transform: scale(1.5)
+ 
+}
+
+#connect img:nth-child(3){
+    position: absolute;
+    top: 70px;
+    right: 200px;
+}
+#connect img:nth-child(2){
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+}
+#connect img:nth-child(1){
+    position: absolute;
+    left: 50px;
+    right: 0;
+}
 
 .connect-container{
-    display: grid;
-  grid-template-columns: 1fr 2fr;
-  
- height: 49em;
-  align-items: center;
+display: flex;
+
+justify-content: center;
+ align-items: baseline;
   position: relative;
   grid-gap: 2em;
+ 
+width: 70%;
+
+
 }
 
 
@@ -18,9 +50,11 @@
     gap: 1em;
 }
 
+
 .connect-social h1{
     font-size: 3rem;
     margin-bottom: .5em;
+   
 }
 .icon{
     display: flex ;
@@ -34,7 +68,7 @@
 .icon i {
     display: flex;
     justify-content: flex-start;
-    font-size: 1.5rem;
+    font-size: 1rem;
     width: 50px;
 }
 
@@ -44,17 +78,16 @@
     color: #353434;
 }
 .icon a:hover {
-    color: #B75D69;
+    color: #4BA3C3;
 }
 
 form{
+    
     width: 100%;
   margin: 0 auto;
-  height: 100%;
+
 }
-.connect-box{
-    height: 100%;
-}
+
 
 .connect-form{
     display: flex;
@@ -205,6 +238,8 @@ textarea{
       gap: 1em;
 padding: 0;
     }
-
+    #connect img {
+        display: none;
+    }
 
 }
