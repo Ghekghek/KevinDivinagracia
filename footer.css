@@ -3,8 +3,7 @@
  
 	margin:auto;
     display: flex;
-	position: relative;
-    
+ 
 }
 .row{
 	display: flex;
@@ -14,6 +13,7 @@
 }
 ul{
 	list-style: none;
+	padding: 0;
 }
 .footer{
 	background-color: #353434;

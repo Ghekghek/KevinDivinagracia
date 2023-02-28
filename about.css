@@ -13,6 +13,9 @@ align-items: center;
 gap: 1em;
 
 }
+
+
+
 .about-container h1{
     color: #E1E4CF;
 }
@@ -51,8 +54,8 @@ margin: auto;
     /* background: #353434; */
     border: 1px solid #353434;
   border-radius: 8px;
-  padding: 1rem;
-
+  padding: 1em;
+padding-top: 3em;
 
 }
 .education {
@@ -112,6 +115,7 @@ color: #353434;
     -moz-box-shadow: 10px 10px 5px -11px rgba(0,0,0,0.75);
     /* background: #353434; */
 padding: 2em 1em;
+padding-top: 3em;
  border: 1px solid #353434;
   
     padding-bottom:1rem ;
@@ -217,7 +221,7 @@ color: #4BA3C3;
  border: 1px solid #353434;
  border-radius: 8px;
  padding: 1em;
- 
+ padding-top: 3em;
 
 }
 .social-title{
@@ -233,6 +237,7 @@ margin-bottom: 1em;
     flex-direction: column;
     gap: .5em;
 }
+
 
 @media screen and (max-width:1200px) {
 

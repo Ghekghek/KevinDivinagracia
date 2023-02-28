@@ -1,7 +1,5 @@
-#connect{
-    position: relative!important;
-height: 80vh;
-    padding-top: 0;
+#connect {
+    padding-top: 5em;
 }
 
 #connect img {
@@ -31,16 +29,17 @@ height: 80vh;
 
 .connect-container{
 display: flex;
-
 justify-content: center;
- align-items: baseline;
-  position: relative;
-  grid-gap: 2em;
- 
-width: 70%;
 
+position: relative;
+padding: 3em;
+border: 1px solid #353434;
+gap: 1em;
+border-radius: 8px;
+padding-bottom: 1em;
 
 }
+
 
 
 
@@ -69,7 +68,7 @@ width: 70%;
     display: flex;
     justify-content: flex-start;
     font-size: 1rem;
-    width: 50px;
+    width: 35px;
 }
 
 
@@ -85,6 +84,7 @@ form{
     
     width: 100%;
   margin: 0 auto;
+  
 
 }
 
@@ -121,7 +121,7 @@ background: transparent;
   transition: background-color .3s ease-out;
 }
 .btn:hover{
-    border-color: #353434;
+    border-color: #4BA3C3;
     color: #fff;
 
 }
@@ -154,7 +154,7 @@ box-sizing: border-box;
     width: 100%;
     height: 100%;
     background: transparent;
-    border: 2px solid #353434;
+    border: 1px solid #353434;
     border-radius: 4px;
     outline: none;
     padding: 0 10px;
@@ -167,7 +167,7 @@ font-size:20px;
     width: 100%;
    
     background: transparent;
-    border: 2px solid #353434;
+    border: 1px solid #353434;
     border-radius: 4px;
     outline: none;
     padding:  10px;
@@ -191,21 +191,22 @@ font-size: 18px;
 transition: top .5s;
 padding: 0 5px;
 
-
+font-weight: lighter!important;
 z-index: -1;
 }
 .up{
     top: -15px!important;
     background: #4BA3C3!important;
     z-index: 2!important;
-    border: 2px solid #353434;
+    border: 1px solid #353434;
     border-radius: 4px;
     color: #EBEDD8!important;
-
+margin-left: auto!important;
 
 }
 .connect-form .texta textarea:focus ~ label{
     top: -15px;
+
     z-index: 2;
 color: white;
 }
@@ -230,16 +231,55 @@ textarea{
 }
 
 
+.dot-container{
+position: absolute;
+width: fit-content;
+background: #353434;
+content: "";
+width: 100%;
+height: 40px;
+top: 0;
+border-radius: 8px 8px 0 0;
+border: 1px solid #353434;
+left: 0;
+}
+
+.enve {
+    content: url(img/enve.png);
+
+    position: absolute;
+left: auto;
+right: auto;
+    top: -120px;
+background: #EBEDD8;
+    width: 150px;
+    border-radius: 30%!important;
+    padding: 1em;
+ 
+}
+
+.connect-box {
+    padding: 1em;
+
+
+}
+
 
 @media only screen and (max-width: 1200px) {
-    .connect-container{
-        display: grid;
-      grid-template-columns: 1fr ;
-      gap: 1em;
-padding: 0;
-    }
+.connect-container{
+    flex-direction: column;
+    width: 100%;
+padding-left: 0;
+padding-right: 0;
+
+}
     #connect img {
         display: none;
     }
+
+}
+
+@media only screen and (max-width: 768px) {
+ 
 
 }

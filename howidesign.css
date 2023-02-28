@@ -116,7 +116,7 @@ width: 60%;
   position: absolute;
   height: 0;
   width: 8px;
-  background-color: #EFA00B;
+  background-color: #4BA3C3;
   left: 48px;
   top: 34px;
   z-index: 0;
@@ -137,10 +137,10 @@ width: 60%;
 }
 .timeline-container .vertical-scrollable-timeline li.active .icon-holder {
   scale: 1.2;
-  background-color: #EFA00B;
+  background-color: #4BA3C3;
 }
 .timeline-container .vertical-scrollable-timeline li.active .icon-holder::before {
-  background-color: #EFA00B;
+  background-color: #4BA3C3;
 }
 .timeline-container .vertical-scrollable-timeline li.active::after {
   height: 100%;

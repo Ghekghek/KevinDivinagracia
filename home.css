@@ -48,10 +48,14 @@ overflow: hidden;
 display: flex;
 align-items: center;
 justify-content: center;
-padding: 3rem 1em;
+padding: 0 1em;
+padding-bottom: 3em;
 position: relative;
 
   }
+.hero{
+  padding-top:3em ;
+}
 
 
 
@@ -407,12 +411,12 @@ transition: background-color .3s ease-out;
 
 
 .hero-button p:hover{
-background-color: #5a5a5a;
-color:#f9ffa8 ;
+background-color: #4BA3C3;
+color: white;
 
 }
 .hero-button a:hover{
-  border:1px dashed #5a5a5a
+  border:1px dashed #4BA3C3;
 
 
 }
@@ -499,8 +503,8 @@ background-size: contain;
   content: "S2";
   position: absolute;
   font-family: 'Courier New', Courier, monospace;
-  background:#514663;
-  font-size: 14px;
+  background:#8f5e9e;
+  font-size: 15px;
   padding: .25em .30em ;
   color: #EDF0DA;
   border-radius: 50%;
@@ -555,8 +559,8 @@ background-size: contain;
   content: "S1";
   position: absolute;
   font-family: 'Courier New', Courier, monospace;
-  background:#8b677e;
-  font-size: 14px;
+  background:#744d83;
+  font-size: 15px;
   padding: .25em .30em ;
   color: #EDF0DA;
   border-radius: 50%;
