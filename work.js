@@ -37,7 +37,7 @@ if (!isMobile) {
             toggleAction:"restart none none none",
             pin:".work-details",
             pinSpacing:false,
-            markers:true,
+            // markers:true,
      
            }
     })

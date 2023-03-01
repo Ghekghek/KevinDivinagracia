@@ -1,9 +1,12 @@
 
 
-#howidesing {
+#howidesign {
+  padding: 3em!important;
   padding-left: 0;
   padding-right: 0;
+
 }
+
 /* #footer {
   height: 100vh !important;
   width: 100% !important;
@@ -73,6 +76,10 @@ width: 60%;
   margin-bottom: 10px;
   font-weight: 600;
   color: #353434;
+}
+.design-title{
+  font-size: 4rem!important;
+  width: 100%;
 }
 .timeline-container .vertical-scrollable-timeline li p {
   line-height: 1.5;
